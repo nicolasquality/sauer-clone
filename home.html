@@ -1,23 +1,27 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
   <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <link rel="stylesheet" href="style.css" />
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
   <title>Sauer Clone</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
 </head>
+
 <body>
 
   <header>
-    <nav aria-label="Navegação principal" class="navbar">
+    <nav aria-label="Navegação principal" role="navigation" class="navbar">
       <ul class="navlist">
-        <li> 
-          <figure>
+        <li>
+          <a href="#" aria-label="Página inicial">
             <img src="assets/images/images/logo.svg" alt="Logo da Sauer">
-          </figure>
+          </a>
         </li>
         <li><a href="#">Início</a></li>
         <li><a href="#">Coleções</a></li>
@@ -31,20 +35,25 @@
   <main id="conteudo">
     <section aria-labelledby="section-principal">
       <figure>
-        <img src="assets/images/images/banner-principal.webp" alt="Foto principal do site, contendo uma mulher utilizando um colar Sauer">
+        <img src="assets/images/images/banner-principal.webp"
+          alt="Foto principal do site, contendo uma mulher utilizando um colar Sauer">
       </figure>
+    </section>
+
+    <section aria-labelledby="titulo-colecoes" id="colecoes">
+      <p class="titulo-colecoes">Coleções</p>
     </section>
 
     <section aria-labelledby="section-cards" id="section-cards">
       <ul>
         <li>
           <figure>
-            <img src="assets/images/images/produto_01.webp" alt="Produto 1">
+            <img src="assets/images/images/produto_01.webp">
           </figure>
         </li>
         <li>
           <figure>
-            <img src="assets/images/images/produto_02.webp" alt="Produto 2">
+            <img src="assets/images/images/produto_02.webp" alt="Peça da coleção Ethos: colar com pingente geométrico">
           </figure>
         </li>
         <li>
@@ -53,7 +62,7 @@
           </figure>
         </li>
       </ul>
-    </section>
   </main>
 </body>
+
 </html>
